@@ -1,0 +1,6 @@
+build
+node_modules
+*.log
+.idea
+.env
+*.js___jb_old___
