@@ -1,5 +1,5 @@
-var dest = './build',
-  src = './src',
+var dest = 'build',
+  src = 'src',
   mui = './node_modules/material-ui/src';
 
 module.exports = {
@@ -10,8 +10,12 @@ module.exports = {
     port: 7000
   },
   markup: {
-    src: src + "/www/**",
+    src: [src + "/www/**/**","!"+src + "/www/css"],
     dest: dest
+  },
+  sass: {
+    src: src + "/www/css/**/**/*.scss",
+    dest: dest + "/css"
   },
   browserify: {
     // Enable source maps
