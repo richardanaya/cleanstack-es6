@@ -3,4 +3,7 @@ node_modules
 *.log
 .idea
 .env
+gulp
+gulpfile.js
+.gitignore
 *.js___jb_old___
