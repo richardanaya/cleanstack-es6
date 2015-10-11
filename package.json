@@ -16,6 +16,7 @@
     "gulp": "latest",
     "gulp-nodemon": "latest",
     "gulp-notify": "latest",
+    "gulp-sass": "latest",
     "gulp-util": "latest",
     "pretty-hrtime": "latest",
     "require-dir": "latest",
